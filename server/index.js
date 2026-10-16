@@ -25,7 +25,7 @@ app.use("/api/auth", authRoutes);
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Uptoskills Authentication API is running!",
+    message: "Authentication API is running!",
   });
 });
 

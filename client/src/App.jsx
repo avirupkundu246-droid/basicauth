@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "https://basicauth-h1xm.onrender.com";
+const API = "https://basicauth-h1xm.onrender.com/api/auth";
 
 function PasswordInput({
   id,
